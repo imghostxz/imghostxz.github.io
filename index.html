@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#070607">
+<meta name="description" content="Ghost Dev — Roblox developer. Outfit maps, shops, gameplay systems, animated interfaces, VFX and Studio tools in Luau. Commissions open.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ghost Dev — Roblox Developer">
+<meta property="og:description" content="Outfit maps, shops, gameplay systems, animated interfaces, VFX and Studio tools in Luau. Commissions open.">
+<meta property="og:image" content="assets/img/poster-editorial.webp">
+<title>Ghost Dev — Roblox Developer</title>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap">
+<link rel="preload" as="image" href="assets/img/poster-editorial.webp" type="image/webp">
+<link rel="stylesheet" href="assets/css/site.css?v=6">
+</head>
+<body>
+<a class="skip" href="#top">Skip to content</a>
+<div id="progress" aria-hidden="true"></div>
+<canvas id="rain" aria-hidden="true"></canvas><div id="glow" aria-hidden="true"></div>
+<header class="nav wrap">
+  <a class="brand" href="#top">IM<b>_</b>GHOST</a>
+  <nav class="links" id="links" aria-label="Main">
+    <a href="#work">Work</a><a href="#gallery">Gallery</a><a href="#services">Services</a><a href="#systems">Systems</a><a href="#code">Code</a><a href="#commissions">Commissions</a><a href="#contact">Contact</a>
+  </nav>
+  <span class="status"><i></i>OPEN FOR COMMISSIONS</span>
+  <button class="menu" id="menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="links"><span></span><span></span></button>
+</header>
+<div class="wrap">
+
+<main id="top">
+<section class="hero">
+<div>
+<div class="eyebrow">Ghost Dev · Roblox Developer</div>
+<h1>Building ideas<br>into <span class="glitch" data-t="games.">games.</span></h1>
+<div class="term"><span class="p">$</span> <span id="typed"></span><span class="cur"></span></div>
+<p class="lead">I’m Ghost Dev, a Roblox scripter. I build avatar shops, outfit catalogs, customization systems, interfaces and effects for games, from the first script to the final polish.</p>
+<div class="actions"><a class="btn pri mag" href="#contact">Request a commission ↗</a><a class="btn mag" href="#work">See what I build ↘</a></div>
+</div>
+<div class="profile">
+  <div class="pwrap"><div class="halo" aria-hidden="true"></div>
+  <div class="pcard" id="pcard"><img src="assets/img/poster-editorial.webp" alt="Ghost Dev poster: my Roblox avatar in a black studded jacket over large red GHOST DEV letters." width="760" height="1013" fetchpriority="high"><div class="scan"></div></div></div>
+  <span class="ftag t1" aria-hidden="true"><i></i>Luau</span>
+  <span class="ftag t2" aria-hidden="true"><i></i>DataStore</span>
+  <span class="ftag t3" aria-hidden="true"><i></i>UI · VFX</span>
+  <div class="tagrow"><span><b>GHOST DEV</b> / Roblox Developer</span><span>Game Creator · Dreamer</span></div>
+</div>
+</section>
+</main>
+</div>
+
+<div class="marq" aria-hidden="true"><div><span>Luau</span><span>RemoteEvents</span><span>DataStore</span><span>ViewportFrame</span><span>MarketplaceService</span><span>TweenService</span><span>ModuleScripts</span><span>PathfindingService</span><span>Raycast</span><span>Animator</span><span>CollectionService</span><span>Parallel Luau</span><span>Luau</span><span>RemoteEvents</span><span>DataStore</span><span>ViewportFrame</span><span>MarketplaceService</span><span>TweenService</span><span>ModuleScripts</span><span>PathfindingService</span><span>Raycast</span><span>Animator</span><span>CollectionService</span><span>Parallel Luau</span></div></div>
+<div class="marq rev" aria-hidden="true"><div><span>Outfit maps</span><span>Shops</span><span>Animated UI</span><span>Combat</span><span>NPCs</span><span>VFX</span><span>DataStore</span><span>Studio tools</span><span>Discord bots</span><span>Python</span><span>TypeScript</span><span>C++</span><span>Outfit maps</span><span>Shops</span><span>Animated UI</span><span>Combat</span><span>NPCs</span><span>VFX</span><span>DataStore</span><span>Studio tools</span><span>Discord bots</span><span>Python</span><span>TypeScript</span><span>C++</span></div></div>
+
+<div class="wrap">
+
+<!-- ================= WORK ================= -->
+<section id="work" class="reveal">
+<div class="head"><div class="eyebrow">Work</div><h2>Projects in action.</h2><p>Recorded straight from Roblox Studio and live servers: maps, shops, purchase flows, effects and tools I built. Pick a video below to play it here.</p></div>
+
+<div class="feature">
+  <div class="player win" id="player">
+    <div class="bar"><i></i><i></i><i></i><em id="pFile"><b>candy-plaza</b>.mp4</em><span class="live"><i></i>no audio</span></div>
+    <div class="screen">
+      <video id="pVideo" controls muted playsinline loop preload="metadata" poster="assets/video/posters/candy-plaza.webp" aria-label="Project video">
+        <source src="assets/video/candy-plaza.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="finfo">
+    <article class="card">
+      <div class="now"><i></i>Now playing</div>
+      <div class="n" id="pCat" style="margin-top:16px">Outfit maps · Systems</div>
+      <h3 id="pTitle">Candy Plaza</h3>
+      <p id="pDesc">A live server of my pastel outfit hub: mannequins you can inspect, Run / Walk toggle, Save and Buy Outfit buttons, staff nametags and spending boards that update as players buy.</p>
+      <ul id="pTags"><li>ProximityPrompt</li><li>Nametags</li><li>Live leaderboards</li></ul>
+      <div class="nav2"><button class="btn" type="button" id="pPrev" aria-label="Previous video">← Prev</button><button class="btn" type="button" id="pNext" aria-label="Next video">Next →</button></div>
+    </article>
+  </div>
+</div>
+
+<div class="filters" role="group" aria-label="Filter videos">
+  <button class="tab on" type="button" data-f="all" aria-pressed="true">All</button>
+  <button class="tab" type="button" data-f="maps" aria-pressed="false">Outfit maps</button>
+  <button class="tab" type="button" data-f="systems" aria-pressed="false">Systems &amp; UI</button>
+  <button class="tab" type="button" data-f="vfx" aria-pressed="false">Builds &amp; VFX</button>
+  <button class="tab" type="button" data-f="tools" aria-pressed="false">Studio tools</button>
+</div>
+
+<div class="vgrid" id="vgrid">
+  <button class="card vcard pop" type="button" data-v="candy-plaza" data-cat="maps systems" data-cl="Outfit maps · Systems" data-title="Candy Plaza" data-tags="ProximityPrompt|Nametags|Live leaderboards" data-desc="A live server of my pastel outfit hub: mannequins you can inspect, Run / Walk toggle, Save and Buy Outfit buttons, staff nametags and spending boards that update as players buy.">
+    <span class="thumb"><img src="assets/video/posters/candy-plaza.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">1:20</span></span>
+    <span class="vbody"><span class="n">Outfit maps · Systems</span><h3>Candy Plaza</h3><p>Live server: mannequins, outfit buttons, staff tags and spending boards.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="crimson-palace" data-cat="maps systems" data-cl="Outfit maps · Systems" data-title="Crimson Palace" data-tags="MarketplaceService|Outfit codes|Custom HUD" data-desc="A gold-and-crimson outfit map with its own HUD: search by outfit code, music, reset, save and run, a top-buyer board, Try On and a Buy All flow that opens the Roblox purchase prompt.">
+    <span class="thumb"><img src="assets/video/posters/crimson-palace.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">1:19</span></span>
+    <span class="vbody"><span class="n">Outfit maps · Systems</span><h3>Crimson Palace</h3><p>Outfit-code search, Try On and Buy All inside a gold palace.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="one-click-checkout" data-cat="systems" data-cl="Systems &amp; UI" data-title="One-Click Checkout" data-tags="MarketplaceService|Leaderboards|Server validation" data-desc="The outfit shop tested end to end: total price, Buy All, the native purchase prompt and confirmation, then the shopper and donor boards updating with the new numbers.">
+    <span class="thumb"><img src="assets/video/posters/one-click-checkout.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">1:01</span></span>
+    <span class="vbody"><span class="n">Systems &amp; UI</span><h3>One-Click Checkout</h3><p>From Buy All to the leaderboards updating, tested in Studio.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="skin-import-fixer" data-cat="tools" data-cl="Studio tools" data-title="Catalog Skin Import Fixer" data-tags="Luau|Batch processing|Backups" data-desc="A Studio script that repairs skins imported from the Roblox catalog in bulk. It goes through dozens of rigs, fixes each import, logs every step to the Output, counts successes and failures, and keeps backups of the originals in ServerStorage.">
+    <span class="thumb"><img src="assets/video/posters/skin-import-fixer.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">2:26</span></span>
+    <span class="vbody"><span class="n">Studio tools</span><h3>Catalog Skin Import Fixer</h3><p>Repairs catalog skin imports in bulk, with logs and backups.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="burnout-garage" data-cat="vfx" data-cl="Builds &amp; VFX" data-title="Burnout Garage" data-tags="ParticleEmitter|Lighting|Map design" data-desc="An underground garage with a burning car: layered fire particles, glow and smoke, ceiling lights, hazard pillars and exit signs.">
+    <span class="thumb"><img src="assets/video/posters/burnout-garage.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">0:36</span></span>
+    <span class="vbody"><span class="n">Builds &amp; VFX</span><h3>Burnout Garage</h3><p>A burning car with layered fire particles in a lit garage.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="hollow-graveyard" data-cat="vfx" data-cl="Builds &amp; VFX" data-title="Hollow Graveyard" data-tags="Lighting|Atmosphere|Map design" data-desc="A Halloween map at night: moonlight and a cloudy skybox, long shadows, gravestones, roses, lamps and pumpkins, explored in play mode.">
+    <span class="thumb"><img src="assets/video/posters/hollow-graveyard.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">1:35</span></span>
+    <span class="vbody"><span class="n">Builds &amp; VFX</span><h3>Hollow Graveyard</h3><p>Moonlit Halloween map with long shadows and a gothic layout.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="neon-crown-club" data-cat="maps" data-cl="Outfit maps" data-title="Neon Crown Club" data-tags="Podium|Neon lighting|Music player" data-desc="A dark club lit by neon strips, with a crown podium for the top buyer and the owner, wall boards and a music player in the HUD.">
+    <span class="thumb"><img src="assets/video/posters/neon-crown-club.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">0:14</span></span>
+    <span class="vbody"><span class="n">Outfit maps</span><h3>Neon Crown Club</h3><p>Neon-lit club with a crown podium for the top buyer.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="dreamland-isle" data-cat="maps" data-cl="Outfit maps" data-title="Dreamland Isle" data-tags="Map design|Skybox|Custom HUD" data-desc="A themed outfit map with a painted purple skybox, an island stage of mannequin stands and the outfit HUD.">
+    <span class="thumb"><img src="assets/video/posters/dreamland-isle.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">0:27</span></span>
+    <span class="vbody"><span class="n">Outfit maps</span><h3>Dreamland Isle</h3><p>Island stage of mannequins under a painted purple sky.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="frostheart-valley" data-cat="maps" data-cl="Outfit maps" data-title="Frostheart Valley" data-tags="Map design|Custom HUD|Lighting" data-desc="A white and pink winter map with heart arches and bridges, and a HUD for music, reset, save, all off and run.">
+    <span class="thumb"><img src="assets/video/posters/frostheart-valley.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">0:11</span></span>
+    <span class="vbody"><span class="n">Outfit maps</span><h3>Frostheart Valley</h3><p>Winter map with heart arches and a compact HUD.</p></span>
+  </button>
+</div>
+</section>
+
+<!-- ================= GALLERY (red system) ================= -->
+<section id="gallery" class="reveal">
+<div class="head"><div class="eyebrow">Gallery</div><h2>Inside the red system.</h2><p>Screens from the outfit system I’m building in Roblox Studio: shop, emotes, admin tools, credits and HUD, all in one red and black style. Click any screen to see it larger.</p></div>
+<div class="bento">
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/red/outfit-shop.webp" data-cap="Outfit Shop — live 3D preview, prices, Owned and Off Sale states, outfit codes and Buy All.">
+    <img src="assets/img/red/outfit-shop.webp" alt="Red outfit shop: a 3D avatar preview with an outfit code and Wear button next to a grid of red item cards with Robux prices and a Buy All button." loading="lazy" width="786" height="380">
+    <span class="cap"><b>Outfit Shop</b>Live preview, outfit codes and Buy All</span>
+  </button>
+  <button class="shot card pop" type="button" data-full="assets/img/red/emotes-shop.webp" data-cap="Emotes Shop — searchable, paginated emote catalog with Robux prices.">
+    <img src="assets/img/red/emotes-shop.webp" alt="Emotes Shop panel with a search bar, six red emote cards with Robux prices and page controls." loading="lazy" width="585" height="505">
+    <span class="cap"><b>Emotes Shop</b>Search, prices and pages</span>
+  </button>
+  <button class="shot card pop fit" type="button" data-full="assets/img/red/admin-panel.webp" data-cap="Admin Panel — tags by UserId (Admin, Moderator, Builder, Creator Outfit) and announcements.">
+    <img src="assets/img/red/admin-panel.webp" alt="Admin panel with Manage Tags and Announcement tabs, a UserId search and role buttons." loading="lazy" width="330" height="344">
+    <span class="cap"><b>Admin Panel</b>Roles by UserId</span>
+  </button>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/red/credits-screen.webp" data-cap="Credits Screen — part of the loading flow, laid out for the team’s names.">
+    <img src="assets/img/red/credits-screen.webp" alt="Dark credits panel with a red title and four cards for owner, developer, outfit creator and a rights notice." loading="lazy" width="1067" height="571">
+    <span class="cap"><b>Credits Screen</b>Loading flow and credits</span>
+  </button>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/red/game-hud.webp" data-cap="Game HUD — buy, save and reset outfits, emotes, animations and the ADM shortcut.">
+    <img src="assets/img/red/game-hud.webp" alt="Game HUD with red ADM, Buy Outfits, Save Outfits and Reset Avatar buttons and Emotes and Animations on the right." loading="lazy" width="778" height="357">
+    <span class="cap"><b>Game HUD</b>Outfit tools and ADM</span>
+  </button>
+  <button class="shot card pop s-full fit" type="button" data-full="assets/img/red/nametag-stats.webp" data-cap="Nametag &amp; Stats — role tab, country, Robux spent and a live purchases board.">
+    <img src="assets/img/red/nametag-stats.webp" alt="Overhead nametag with a Developer role, flag and Robux spent, next to a board with purchases, spent and donated." loading="lazy" width="826" height="282">
+    <span class="cap"><b>Nametag &amp; Stats</b>Role, country and spending</span>
+  </button>
+</div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="reveal">
+<div class="head"><div class="eyebrow">Services</div><h2>What I can build for your game</h2><p>From a single feature to a complete system. Tell me what your game needs and I’ll take it from there.</p></div>
+<div class="grid">
+<article class="card big pop"><div class="n">Avatar shop</div><h3>Avatar purchase systems</h3><p>Outfit search, 3D preview, cart and favorites, with purchases for single items or the whole look.</p><pre class="mini hl" data-l="lua">local missing = Outfit.missing(player, outfitId)
+Shop.buy(player, missing)</pre></article>
+<article class="card pop"><div class="n">Customization</div><h3>Skins, emotes, animations</h3><p>Skins, emotes and animations that players can equip, swap and preview.</p><pre class="mini hl" data-l="lua">Avatar.equip(player, skinId)
+Emote.play(player, "Dance2")</pre></article>
+<article class="card pop"><div class="n">From scratch</div><h3>Full game systems</h3><p>Inventory, currency, GamePasses, rewards, rankings, quests and admin tools.</p><pre class="mini hl" data-l="lua">Rewards.daily(player)
+Quests.progress(player, "buy", 1)</pre></article>
+<article class="card pop"><div class="n">UI animation</div><h3>Interfaces that respond</h3><p>Smooth menus, buttons and transitions that feel good to use.</p><pre class="mini hl" data-l="lua">Tween(btn, 0.2, {
+	Size = UDim2.fromScale(1.05, 1.05)
+})</pre></article>
+<article class="card pop"><div class="n">VFX</div><h3>Effects and feedback</h3><p>Particles, beams and trails for purchases, rewards and events.</p><pre class="mini hl" data-l="lua">emitter:Emit(40)
+beam.Enabled = true</pre></article>
+<article class="card big pop"><div class="n">Saving and backend</div><h3>Data, APIs and integrations</h3><p>Player data that saves safely, leaderboards, and connections between Roblox, APIs and Discord.</p><pre class="mini hl" data-l="lua">local ok, data = pcall(store.GetAsync, store, player.UserId)
+if ok and data then Profile.load(player, data) end</pre></article>
+<article class="card pop"><div class="n">Bots and web</div><h3>Discord bots and websites</h3><p>Sales and ticket bots, dashboards and APIs.</p><pre class="mini hl" data-l="py">await ix.response.send_message(ticket)</pre></article>
+</div></section>
+
+<!-- ================= SYSTEMS ================= -->
+<section id="systems" class="reveal sys">
+<div class="head"><div class="eyebrow">Gameplay systems</div><h2>Advanced Luau, end to end.</h2><p>The systems behind combat, movement, AI and economy. Built on Roblox’s own APIs, validated on the server and organized in small modules.</p></div>
+<div class="grid">
+<article class="card pop"><span class="glyph" aria-hidden="true">⚔</span><div class="n">Combat</div><h3>Combat systems</h3><p>Raycast and shapecast hitboxes, combos, stuns, knockback and damage that the server checks before it applies.</p><div class="api"><span>WorldRoot:Raycast</span><span>Humanoid</span><span>RemoteEvent</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">◎</span><div class="n">NPCs &amp; AI</div><h3>Enemies and NPCs</h3><p>Pathfinding, state machines for idle, patrol, chase and attack, aggro ranges and spawners that clean up after themselves.</p><div class="api"><span>PathfindingService</span><span>Humanoid:MoveTo</span><span>CollectionService</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">✦</span><div class="n">Abilities</div><h3>Skills and abilities</h3><p>Cooldowns, energy, input bindings for PC, console and mobile, and effects that replicate the same for every player.</p><div class="api"><span>ContextActionService</span><span>ModuleScript</span><span>Attributes</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">»</span><div class="n">Movement</div><h3>Movement and camera</h3><p>Sprint, dash, double jump, slide and wall interactions, with a camera that follows the action.</p><div class="api"><span>LinearVelocity</span><span>UserInputService</span><span>Camera</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">∿</span><div class="n">Animation</div><h3>Character animation</h3><p>Animation states and blending, emotes, and keyframe markers that sync hits, sounds and VFX to the exact frame.</p><div class="api"><span>Animator</span><span>AnimationTrack</span><span>KeyframeMarker</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">✺</span><div class="n">VFX</div><h3>Visual effects</h3><p>Particles, beams, trails, highlights and tween-driven effects for hits, abilities, purchases and events.</p><div class="api"><span>ParticleEmitter</span><span>Beam</span><span>TweenService</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">▣</span><div class="n">Interfaces</div><h3>Custom interfaces</h3><p>Shops, inventories, HUDs and menus that scale from PC to phone, with hover, press and open animations.</p><div class="api"><span>UIScale</span><span>ViewportFrame</span><span>TweenService</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">⌖</span><div class="n">Tools &amp; items</div><h3>Tools and interactions</h3><p>Equippable tools, pickups, doors, prompts and inventories that save between sessions.</p><div class="api"><span>Tool</span><span>ProximityPrompt</span><span>DataStore</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">↻</span><div class="n">Game loop</div><h3>Game mechanics</h3><p>Rounds, lobbies, quests, daily rewards, currencies, rankings and teleports between places.</p><div class="api"><span>TeleportService</span><span>OrderedDataStore</span><span>BindableEvent</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">$</span><div class="n">Economy</div><h3>Data and purchases</h3><p>Profiles that save safely, Developer Products, GamePasses, receipts that are never granted twice, and live leaderboards.</p><div class="api"><span>MarketplaceService</span><span>ProcessReceipt</span><span>ProfileStore</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">⚡</span><div class="n">Performance &amp; security</div><h3>Optimization and anti-exploit</h3><p>Streaming, object pooling, Parallel Luau, fewer network calls, rate limits and sanity checks on every remote.</p><div class="api"><span>StreamingEnabled</span><span>Actor</span><span>MicroProfiler</span></div></article>
+<article class="card pop"><span class="glyph" aria-hidden="true">⚙</span><div class="n">Studio tools</div><h3>Plugins and automation</h3><p>Plugins and command-bar scripts that batch edit, import, repair and organize assets inside Studio.</p><div class="api"><span>plugin</span><span>Selection</span><span>ChangeHistoryService</span></div></article>
+</div></section>
+
+<!-- ================= CODE ================= -->
+<section id="code" class="reveal"><div class="code">
+<div><div class="eyebrow">Code</div><h2>Clean, organized code</h2><p style="color:#c0b5b8">Examples of how I write combat, AI, abilities, movement, shop logic, interface animation, effects, data saving, bots and APIs. Click the tabs to see each one.</p><div class="chips"><span class="chip"><i style="background:#5b8cff"></i>Luau</span><span class="chip"><i style="background:#ffd24a"></i>Python</span><span class="chip"><i style="background:#f7df1e"></i>JavaScript</span><span class="chip"><i style="background:#3178c6"></i>TypeScript</span><span class="chip"><i style="background:#ff2638"></i>C++</span><span class="chip"><i style="background:#ed8b00"></i>Java</span></div></div>
+<div><div class="tabs" id="tabs" role="tablist" aria-label="Code samples"></div><div class="win"><div class="bar"><i></i><i></i><i></i><em id="fname"></em></div><pre id="snip" role="tabpanel" tabindex="0"></pre></div></div>
+</div></section>
+
+<!-- ================= FREE SCRIPTS ================= -->
+<section id="free" class="reveal">
+<a class="free card pop" href="https://github.com/imghostxz/roblox-scripts" target="_blank" rel="noopener">
+  <span class="free-ico ico" style="--c:#f4f1f1;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/github.svg)" aria-hidden="true"></span>
+  <span class="free-txt">
+    <span class="eyebrow">Free scripts</span>
+    <b>Open-source Luau scripts for your game</b>
+    <span>Safe DataStore saving, group join prompt, Developer Products without duplicates, anti-spam for remotes, sprint, doors and more. Explained line by line.</span>
+  </span>
+  <span class="btn pri">Open on GitHub ↗</span>
+</a>
+</section>
+
+<!-- ================= STACK ================= -->
+<section id="stack" class="reveal">
+<div class="head"><div class="eyebrow">Stack</div><h2>Languages and tools.</h2><p>Luau and Roblox Studio every day, plus the languages I use for bots, websites and integrations.</p></div>
+<div class="stack">
+  <article class="card sgroup pop"><h3>Game dev</h3><div class="tech">
+    <div class="ti"><span class="ico" style="--c:#00a2ff;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/lua.svg)"></span>Luau<small>main</small></div>
+    <div class="ti"><span class="ico" style="--c:#e8e8e8;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/robloxstudio.svg)"></span>Roblox Studio</div>
+    <div class="ti"><span class="ico" style="--c:#e8e8e8;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/roblox.svg)"></span>Roblox APIs</div>
+    <div class="ti"><span class="ico txt" style="--c:#ff5b6b">R</span>Rojo</div>
+  </div></article>
+  <article class="card sgroup pop"><h3>Languages</h3><div class="tech">
+    <div class="ti"><span class="ico" style="--c:#ffd24a;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/python.svg)"></span>Python</div>
+    <div class="ti"><span class="ico" style="--c:#f7df1e;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/javascript.svg)"></span>JavaScript</div>
+    <div class="ti"><span class="ico" style="--c:#4a8fe0;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/typescript.svg)"></span>TypeScript</div>
+    <div class="ti"><span class="ico" style="--c:#ed8b00;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/openjdk.svg)"></span>Java</div>
+  </div></article>
+  <article class="card sgroup pop"><h3>Systems</h3><div class="tech">
+    <div class="ti"><span class="ico" style="--c:#a8b9cc;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/c.svg)"></span>C</div>
+    <div class="ti"><span class="ico" style="--c:#659ad2;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/cplusplus.svg)"></span>C++</div>
+    <div class="ti"><span class="ico txt" style="--c:#ff5b6b">{ }</span>OOP</div>
+    <div class="ti"><span class="ico txt" style="--c:#ff5b6b">O(n)</span>Algorithms</div>
+  </div></article>
+  <article class="card sgroup pop"><h3>Web &amp; APIs</h3><div class="tech">
+    <div class="ti"><span class="ico" style="--c:#e34f26;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/html5.svg)"></span>HTML</div>
+    <div class="ti"><span class="ico" style="--c:#2b8fd6;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/css3.svg)"></span>CSS</div>
+    <div class="ti"><span class="ico txt" style="--c:#7ee0a2">GET</span>REST APIs</div>
+    <div class="ti"><span class="ico" style="--c:#7b86ff;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/discord.svg)"></span>Discord bots</div>
+  </div></article>
+</div>
+<div class="apis"><div class="chips" aria-label="Roblox services I work with">
+  <span class="chip"><i style="background:#ff2638"></i>DataStoreService</span><span class="chip"><i style="background:#ff2638"></i>MarketplaceService</span><span class="chip"><i style="background:#ff2638"></i>TweenService</span><span class="chip"><i style="background:#ff2638"></i>RunService</span><span class="chip"><i style="background:#ff2638"></i>PathfindingService</span><span class="chip"><i style="background:#ff2638"></i>CollectionService</span><span class="chip"><i style="background:#ff2638"></i>UserInputService</span><span class="chip"><i style="background:#ff2638"></i>ContextActionService</span><span class="chip"><i style="background:#ff2638"></i>TeleportService</span><span class="chip"><i style="background:#ff2638"></i>HttpService</span><span class="chip"><i style="background:#ff2638"></i>MessagingService</span><span class="chip"><i style="background:#3a5bff"></i>Data structures</span><span class="chip"><i style="background:#3a5bff"></i>API integration</span><span class="chip"><i style="background:#3a5bff"></i>Gameplay programming</span>
+</div></div>
+</section>
+
+<!-- ================= COMMISSIONS ================= -->
+<section id="commissions" class="reveal">
+<div class="comm-top">
+  <div class="posterbox" id="posterbox"><div class="pcard" id="pcard2"><img src="assets/img/poster-spray.webp" alt="Ghost Dev poster with red spray paint: my Roblox avatar in a studded black jacket and the list of languages I work with." width="760" height="863" loading="lazy"><div class="scan"></div></div></div>
+  <div>
+    <div class="eyebrow">Commissions</div>
+    <h2>Commissions are open.</h2>
+    <p class="big-lead">I do it all in Roblox: from one animated menu to a full game. <strong>Prices vary with how complex your idea is</strong>, so tell me what you need and I’ll send you a quote.</p>
+    <div class="pipe" aria-label="What a commission covers">
+      <span>Animated interfaces</span><b aria-hidden="true">→</b><span>Make them work</span><b aria-hidden="true">→</b><span>Code behind it</span><b aria-hidden="true">→</b><span>DataStore &amp; more</span>
+    </div>
+    <div class="actions"><a class="btn pri mag" href="#contact">Get a quote ↗</a></div>
+  </div>
+</div>
+
+<div class="grid comm">
+  <article class="card pop">
+    <div class="n">The team</div><h3>Four people on your project</h3>
+    <ul class="team">
+      <li><b>2</b><span>Builders<small>Maps, builds and scenery</small></span></li>
+      <li><b>1</b><span>Developer<small>Scripts, systems and data</small></span></li>
+      <li><b>1</b><span>UI Maker<small>Interfaces and animation</small></span></li>
+    </ul>
+  </article>
+  <article class="card pop">
+    <div class="n">Payment</div><h3>Pay the way that suits you</h3>
+    <ul class="pay">
+      <li><span class="ico" style="--c:#3b9cff;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/paypal.svg)"></span>PayPal</li>
+      <li><span class="ico robux" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.5 20.2 7.25v9.5L12 21.5 3.8 16.75v-9.5Z"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg></span>Robux</li>
+      <li><span class="ico" style="--c:#32bcad;--i:url(https://cdn.jsdelivr.net/npm/simple-icons@13.0.0/icons/pix.svg)"></span>PIX</li>
+      <li><span class="ico txt" style="--c:#ff5b6b">%</span>Revenue share<small>Let’s talk about it</small></li>
+    </ul>
+  </article>
+  <article class="card pop">
+    <div class="n">Pricing</div><h3>Based on complexity</h3>
+    <p>Every quote depends on what the project needs. These are the things that change the price:</p>
+    <ul><li>Size of the system or map</li><li>Number of screens and animations</li><li>Saving, data and purchases</li><li>Your deadline</li></ul>
+  </article>
+</div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section id="process" class="reveal">
+<div class="head"><div class="eyebrow">How it works</div><h2 class="scr">From idea to release.</h2></div>
+<div class="steps"><div class="step pop"><h3>Brief</h3><p>Tell me your idea and we agree on what to build and when.</p></div><div class="step pop"><h3>Planning</h3><p>I plan how the system is organized before writing any code.</p></div><div class="step pop"><h3>Build &amp; test</h3><p>I script it, connect the interface and test everything in Studio.</p></div><div class="step pop"><h3>Delivery</h3><p>You get the finished system, and I fix any issue that shows up after launch.</p></div></div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="reveal"><div class="faq">
+<div class="head"><div class="eyebrow">FAQ</div><h2>Before we start.</h2><p>Price, payment, scope and what you get at the end.</p></div>
+<div>
+<details><summary>How do I start a commission?</summary><p>Send me a message on Discord with your idea, the game it’s for and any references. We agree on what to build and when before any code is written.</p></details>
+<details><summary>How much does it cost?</summary><p>It depends on the complexity: the size of the system, how many screens and animations it has, the data it saves and your deadline. Tell me what you need and I’ll send you a quote.</p></details>
+<details><summary>How can I pay?</summary><p>PayPal, Robux or PIX. A revenue share, a percentage of what the game earns, is also possible. We can talk about it.</p></details>
+<details><summary>What kind of projects do you take?</summary><p>Anything in Roblox: maps and builds, outfit maps and catalogs, shops and purchase flows, gameplay systems, animated interfaces wired to real code, VFX, DataStore and Studio tools. Discord bots and APIs too.</p></details>
+<details><summary>What do I get at the end?</summary><p>The finished system, organized and tested in Studio, ready for your game. If an issue shows up after launch, I fix it.</p></details>
+</div>
+</div></section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="reveal"><div class="contact"><div><div class="eyebrow">Commissions open</div><h2 class="scr">Let’s build something.</h2><p>Need a shop, a catalog, a custom system, a bot or an interface? Send me a message on Discord and tell me about your project.</p><span class="handle">Discord: <b id="h">imghostxz</b></span></div><div><a class="btn pri mag" href="https://discord.com/app" target="_blank" rel="noreferrer">Open Discord ↗</a><br><br><button class="btn" id="copy" type="button">Copy username</button><span class="sr" id="copyStatus" role="status" aria-live="polite"></span></div></div></section>
+</div>
+<footer class="wrap"><span>© <span id="y"></span> Ghost Dev · Commissions by the G Studio Labs team</span><span>Roblox &amp; software development</span></footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="Screenshot">
+  <button class="lb-close" type="button" id="lbClose" aria-label="Close">✕</button>
+  <img id="lbImg" alt="">
+  <p id="lbCap"></p>
+</dialog>
+
+<script src="assets/js/site.js?v=4" defer></script>
+</body>
+</html>
