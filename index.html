@@ -63,20 +63,20 @@
 
 <div class="feature">
   <div class="player win" id="player">
-    <div class="bar"><i></i><i></i><i></i><em id="pFile"><b>candy-plaza</b>.mp4</em><span class="live"><i></i>no audio</span></div>
+    <div class="bar"><i></i><i></i><i></i><em id="pFile"><b>colossus-awakening</b>.mp4</em><span class="live"><i></i><span id="pAud">audio</span></span></div>
     <div class="screen">
-      <video id="pVideo" controls muted playsinline loop preload="metadata" poster="assets/video/posters/candy-plaza.webp" aria-label="Project video">
-        <source src="assets/video/candy-plaza.mp4" type="video/mp4">
+      <video id="pVideo" controls muted playsinline loop preload="metadata" poster="assets/video/posters/colossus-awakening.webp" aria-label="Project video">
+        <source src="assets/video/colossus-awakening.mp4" type="video/mp4">
       </video>
     </div>
   </div>
   <div class="finfo">
     <article class="card">
       <div class="now"><i></i>Now playing</div>
-      <div class="n" id="pCat" style="margin-top:16px">Outfit maps · Systems</div>
-      <h3 id="pTitle">Candy Plaza</h3>
-      <p id="pDesc">A live server of my pastel outfit hub: mannequins you can inspect, Run / Walk toggle, Save and Buy Outfit buttons, staff nametags and spending boards that update as players buy.</p>
-      <ul id="pTags"><li>ProximityPrompt</li><li>Nametags</li><li>Live leaderboards</li></ul>
+      <div class="n" id="pCat" style="margin-top:16px">Gameplay · Boss</div>
+      <h3 id="pTitle">Ice Colossus: Awakening</h3>
+      <p id="pDesc">The boss rises from the ground piece by piece, wakes up and roars.</p>
+      <ul id="pTags"><li>Cutscene</li><li>Motor6D rig</li><li>VFX · SFX</li></ul>
       <div class="nav2"><button class="btn" type="button" id="pPrev" aria-label="Previous video">← Prev</button><button class="btn" type="button" id="pNext" aria-label="Next video">Next →</button></div>
     </article>
   </div>
@@ -84,6 +84,7 @@
 
 <div class="filters" role="group" aria-label="Filter videos">
   <button class="tab on" type="button" data-f="all" aria-pressed="true">All</button>
+  <button class="tab" type="button" data-f="games" aria-pressed="false">Gameplay</button>
   <button class="tab" type="button" data-f="maps" aria-pressed="false">Outfit maps</button>
   <button class="tab" type="button" data-f="systems" aria-pressed="false">Systems &amp; UI</button>
   <button class="tab" type="button" data-f="vfx" aria-pressed="false">Builds &amp; VFX</button>
@@ -91,6 +92,22 @@
 </div>
 
 <div class="vgrid" id="vgrid">
+  <button class="card vcard pop" type="button" data-v="colossus-awakening" data-audio="1" data-cat="games vfx" data-cl="Gameplay · Boss" data-title="Ice Colossus: Awakening" data-tags="Cutscene|Motor6D rig|VFX · SFX" data-desc="The boss rises from the ground piece by piece, wakes up and roars.">
+    <span class="thumb"><img src="assets/video/posters/colossus-awakening.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">0:16</span></span>
+    <span class="vbody"><span class="n">Gameplay · Boss</span><h3>Ice Colossus: Awakening</h3><p>Pieces fly up, lock in, then it roars.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="colossus-combat" data-audio="1" data-cat="games vfx" data-cl="Gameplay · Boss" data-title="Ice Colossus: Combat" data-tags="Boss AI|Server-side damage|Telegraphs" data-desc="A full fight: the boss picks attacks by distance, with ground warnings before each hit.">
+    <span class="thumb"><img src="assets/video/posters/colossus-combat.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">0:45</span></span>
+    <span class="vbody"><span class="n">Gameplay · Boss</span><h3>Ice Colossus: Combat</h3><p>Red ground warnings, then the hit.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="colossus-attacks" data-audio="1" data-cat="games vfx" data-cl="Gameplay · Boss" data-title="Ice Colossus: Attacks" data-tags="Ice spikes|Shockwaves|Frost breath" data-desc="Glacier slam, frost breath, crystal graveyard and the permafrost rupture.">
+    <span class="thumb"><img src="assets/video/posters/colossus-attacks.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">0:20</span></span>
+    <span class="vbody"><span class="n">Gameplay · Boss</span><h3>Ice Colossus: Attacks</h3><p>Slam, frost breath, spike rings.</p></span>
+  </button>
+  <button class="card vcard pop" type="button" data-v="colossus-phase2" data-audio="1" data-cat="games vfx" data-cl="Gameplay · Boss" data-title="Ice Colossus: Phase 2" data-tags="Transformation|Storm aura|Lightning" data-desc="At 40% health the boss transforms: body crystals, a storm aura and lightning.">
+    <span class="thumb"><img src="assets/video/posters/colossus-phase2.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">0:14</span></span>
+    <span class="vbody"><span class="n">Gameplay · Boss</span><h3>Ice Colossus: Phase 2</h3><p>40% health: crystals, storm, lightning.</p></span>
+  </button>
   <button class="card vcard pop" type="button" data-v="candy-plaza" data-cat="maps systems" data-cl="Outfit maps · Systems" data-title="Candy Plaza" data-tags="ProximityPrompt|Nametags|Live leaderboards" data-desc="A live server of my pastel outfit hub: mannequins you can inspect, Run / Walk toggle, Save and Buy Outfit buttons, staff nametags and spending boards that update as players buy.">
     <span class="thumb"><img src="assets/video/posters/candy-plaza.webp" alt="" loading="lazy" width="640" height="360"><span class="play" aria-hidden="true">▶</span><span class="dur">1:20</span></span>
     <span class="vbody"><span class="n">Outfit maps · Systems</span><h3>Candy Plaza</h3><p>Live server: mannequins, outfit buttons, staff tags and spending boards.</p></span>
@@ -130,40 +147,114 @@
 </div>
 </section>
 
-<!-- ================= GALLERY (red system) ================= -->
+<!-- ================= GALLERY: Q-CORE ================= -->
 <section id="gallery" class="reveal">
-<div class="head"><div class="eyebrow">Gallery</div><h2>Inside the red system.</h2><p>Screens from the outfit system I’m building in Roblox Studio: shop, emotes, admin tools, credits and HUD, all in one red and black style. Click any screen to see it larger.</p></div>
+<div class="head"><div class="eyebrow">Live game · Q-CORE Outfits</div><h2>Q-CORE Outfits.</h2><p>Avatar shop live on Roblox. Purchases are saved per player, and 294 buyers were carried over from the old store with their spend intact.</p></div>
 <div class="bento">
-  <button class="shot card pop s-wide" type="button" data-full="assets/img/red/outfit-shop.webp" data-cap="Outfit Shop — live 3D preview, prices, Owned and Off Sale states, outfit codes and Buy All.">
-    <img src="assets/img/red/outfit-shop.webp" alt="Red outfit shop: a 3D avatar preview with an outfit code and Wear button next to a grid of red item cards with Robux prices and a Buy All button." loading="lazy" width="786" height="380">
-    <span class="cap"><b>Outfit Shop</b>Live preview, outfit codes and Buy All</span>
+  <button class="shot card pop s-wide fit" type="button" data-full="assets/img/qcore/outfit-view.webp" data-cap="Outfit panel — total price, each item with its Robux price or Owned, outfit code, Wear and Buy All.">
+    <img src="assets/img/qcore/outfit-view.webp" alt="Outfit panel showing a 3D avatar, total price 512, item cards with Robux prices or Owned, the code HJQZUT, a Wear button and a green Buy All button." loading="lazy" width="1400" height="676">
+    <span class="cap"><b>Outfit panel</b>512 R$ total · code HJQZUT · Buy All</span>
   </button>
-  <button class="shot card pop" type="button" data-full="assets/img/red/emotes-shop.webp" data-cap="Emotes Shop — searchable, paginated emote catalog with Robux prices.">
-    <img src="assets/img/red/emotes-shop.webp" alt="Emotes Shop panel with a search bar, six red emote cards with Robux prices and page controls." loading="lazy" width="585" height="505">
-    <span class="cap"><b>Emotes Shop</b>Search, prices and pages</span>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/qcore/hud.webp" data-cap="In game — outfit buttons, Developer tag with country and spend, and the Purchases / Spent / Donated board.">
+    <img src="assets/img/qcore/hud.webp" alt="Player in a yellow and black parking garage lined with mannequins, outfit buttons on the left, Emotes and Animations on the right, a Developer nametag and a purchases board." loading="lazy" width="1400" height="580">
+    <span class="cap"><b>In game</b>Nametag with spend · purchases board</span>
   </button>
-  <button class="shot card pop fit" type="button" data-full="assets/img/red/admin-panel.webp" data-cap="Admin Panel — tags by UserId (Admin, Moderator, Builder, Creator Outfit) and announcements.">
-    <img src="assets/img/red/admin-panel.webp" alt="Admin panel with Manage Tags and Announcement tabs, a UserId search and role buttons." loading="lazy" width="330" height="344">
-    <span class="cap"><b>Admin Panel</b>Roles by UserId</span>
+  <button class="shot card pop s-wide fit" type="button" data-full="assets/img/qcore/emotes.webp" data-cap="Emotes Shop — search, Owned / Equip states, 67 pages.">
+    <img src="assets/img/qcore/emotes.webp" alt="Emotes Shop panel with a search bar, six emote cards priced at 55 Robux, one marked Owned with an Equip button, and page 1 of 67." loading="lazy" width="1400" height="676">
+    <span class="cap"><b>Emotes Shop</b>Search · Owned / Equip · 67 pages</span>
   </button>
-  <button class="shot card pop s-wide" type="button" data-full="assets/img/red/credits-screen.webp" data-cap="Credits Screen — part of the loading flow, laid out for the team’s names.">
-    <img src="assets/img/red/credits-screen.webp" alt="Dark credits panel with a red title and four cards for owner, developer, outfit creator and a rights notice." loading="lazy" width="1067" height="571">
-    <span class="cap"><b>Credits Screen</b>Loading flow and credits</span>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/qcore/loading.webp" data-cap="Loading screen — Q-CORE cover, progress bar, Skip and Credits.">
+    <img src="assets/img/qcore/loading.webp" alt="Black loading screen with the Q-CORE Outfits by Fer cover, a progress bar at 46 percent, and Skip and Credits buttons." loading="lazy" width="1400" height="580">
+    <span class="cap"><b>Loading screen</b>Progress · Skip · Credits</span>
   </button>
-  <button class="shot card pop s-wide" type="button" data-full="assets/img/red/game-hud.webp" data-cap="Game HUD — buy, save and reset outfits, emotes, animations and the ADM shortcut.">
-    <img src="assets/img/red/game-hud.webp" alt="Game HUD with red ADM, Buy Outfits, Save Outfits and Reset Avatar buttons and Emotes and Animations on the right." loading="lazy" width="778" height="357">
-    <span class="cap"><b>Game HUD</b>Outfit tools and ADM</span>
+</div>
+</section>
+
+<!-- ================= GALLERY: SYSTEM RED ================= -->
+<section id="red" class="reveal">
+<div class="head"><div class="eyebrow">Base system · System Red</div><h2>System Red.</h2><p>My own avatar-shop base. Q-CORE runs on it; this is the red build it ships with.</p></div>
+<div class="bento">
+  <button class="shot card pop s-wide fit" type="button" data-full="assets/img/red2/outfit-view.webp" data-cap="Outfit panel — 3D preview, Owned / price per item, outfit code, Wear and Buy All.">
+    <img src="assets/img/red2/outfit-view.webp" alt="Red outfit panel with a 3D avatar preview, total price 12, item cards marked Owned or with Robux prices, the code YNT8QQ, Wear and Buy All." loading="lazy" width="1000" height="600">
+    <span class="cap"><b>Outfit panel</b>Owned items skipped from Buy All</span>
   </button>
-  <button class="shot card pop s-full fit" type="button" data-full="assets/img/red/nametag-stats.webp" data-cap="Nametag &amp; Stats — role tab, country, Robux spent and a live purchases board.">
-    <img src="assets/img/red/nametag-stats.webp" alt="Overhead nametag with a Developer role, flag and Robux spent, next to a board with purchases, spent and donated." loading="lazy" width="826" height="282">
-    <span class="cap"><b>Nametag &amp; Stats</b>Role, country and spending</span>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/red2/loading.webp" data-cap="Loading screen — red cover art, progress bar, Skip and Credits.">
+    <img src="assets/img/red2/loading.webp" alt="Dark red loading screen with the Ghost Dev cover art, SYSTEM AVATAR title and a red progress bar at 22 percent." loading="lazy" width="1400" height="580">
+    <span class="cap"><b>Loading screen</b>Progress · Skip · Credits</span>
   </button>
+  <button class="shot card pop fit" type="button" data-full="assets/img/red2/animations.webp" data-cap="Animations Shop — animation packs at 300 R$, search, 6 pages.">
+    <img src="assets/img/red2/animations.webp" alt="Red Animations Shop panel with six animation packs priced at 300 Robux and page 1 of 6." loading="lazy" width="840" height="750">
+    <span class="cap"><b>Animations Shop</b>Packs · search · 6 pages</span>
+  </button>
+  <button class="shot card pop fit" type="button" data-full="assets/img/red2/emotes.webp" data-cap="Emotes Shop — 55 R$ emotes, search, 6 pages.">
+    <img src="assets/img/red2/emotes.webp" alt="Red Emotes Shop panel with six emotes priced at 55 Robux and page 1 of 6." loading="lazy" width="840" height="750">
+    <span class="cap"><b>Emotes Shop</b>55 R$ each · search</span>
+  </button>
+  <button class="shot card pop fit" type="button" data-full="assets/img/red2/admin.webp" data-cap="Admin panel — look up a player by UserId and give Admin, Moderator, Builder or Creator Outfit; checked on the server.">
+    <img src="assets/img/red2/admin.webp" alt="Red admin panel with tabs for tags and announcements, a UserId search and role buttons Admin, Moderator, Builder and Creator Outfit." loading="lazy" width="738" height="826">
+    <span class="cap"><b>Admin panel</b>Roles by UserId · server-checked</span>
+  </button>
+  <button class="shot card pop fit" type="button" data-full="assets/img/red2/settings.webp" data-cap="Settings — outfit render distance, hide tags or players, mute UI, Korblox and Headless.">
+    <img src="assets/img/red2/settings.webp" alt="Red settings panel with an outfit render distance slider and toggles for hide player tag, hide players, mute UI sound, Korblox and Headless." loading="lazy" width="516" height="750">
+    <span class="cap"><b>Settings</b>Render distance · Korblox · Headless</span>
+  </button>
+  <button class="shot card pop s-wide fit" type="button" data-full="assets/img/red2/code.webp" data-cap="Outfit code — type a code and teleport to that mannequin.">
+    <img src="assets/img/red2/code.webp" alt="Red Outfit Code panel with a code field and a teleport to outfit button." loading="lazy" width="972" height="400">
+    <span class="cap"><b>Outfit code</b>Teleports you to the mannequin</span>
+  </button>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/red2/hud.webp" data-cap="In game — red HUD, Developer tag with country and spend, Purchases / Spent / Donated board.">
+    <img src="assets/img/red2/hud.webp" alt="Player on a grid floor between red mannequin stands, red outfit buttons, a Developer nametag and the purchases board." loading="lazy" width="1400" height="580">
+    <span class="cap"><b>In game</b>Red HUD · nametag · purchases board</span>
+  </button>
+</div>
+</section>
+
+<!-- ================= GALLERY: ICE COLOSSUS ================= -->
+<section id="colossus" class="reveal">
+<div class="head"><div class="eyebrow">Gameplay · Boss</div><h2>Ice Skeleton Colossus.</h2></div>
+<div class="bento">
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/colossus/02.webp" data-cap="Ice Colossus"><img src="assets/img/colossus/02.webp" alt="A giant ice skeleton boss with glowing red eyes and a blue core, arms spread in a frozen arena." loading="lazy" width="1280" height="530"><span class="cap"><b>Ice Colossus</b>~45 studs · 16-bone Motor6D rig</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/colossus/01.webp" data-cap="Emerging from the ground"><img src="assets/img/colossus/01.webp" alt="Bone and ice pieces flying up from the ground to assemble the boss." loading="lazy" width="1280" height="530"><span class="cap"><b>Assembly</b>~250 pieces fly up and lock in</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/colossus/03.webp" data-cap="Glacier Slam"><img src="assets/img/colossus/03.webp" alt="The boss slamming the ground, ice spikes erupting." loading="lazy" width="1280" height="530"><span class="cap"><b>Glacier Slam</b>35 damage · 13-stud radius</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/colossus/04.webp" data-cap="Frost Breath"><img src="assets/img/colossus/04.webp" alt="The boss breathing frost, a line of ice spikes on the ground." loading="lazy" width="1280" height="530"><span class="cap"><b>Frost Breath</b>Sweeping cone · slows on hit</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/colossus/07.webp" data-cap="Final collapse"><img src="assets/img/colossus/07.webp" alt="The boss collapsing to its knees as its core bursts." loading="lazy" width="1280" height="530"><span class="cap"><b>Collapse</b>Kneels, core bursts, body shatters</span></button>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/colossus/05.webp" data-cap="Phase 2 transformation"><img src="assets/img/colossus/05.webp" alt="A pillar of light, an energy dome and lightning during the phase 2 transformation." loading="lazy" width="1280" height="530"><span class="cap"><b>Phase 2</b>Triggers at 40% health</span></button>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/colossus/06.webp" data-cap="Phase 2: Blizzard Fury"><img src="assets/img/colossus/06.webp" alt="The boss in phase 2 with ice crystals on its body and a storm around it." loading="lazy" width="1280" height="530"><span class="cap"><b>Blizzard Fury</b>Body crystals · lightning strikes</span></button>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/colossus/08.webp" data-cap="Glacial arena"><img src="assets/img/colossus/08.webp" alt="Aerial view of the frozen arena with pillars, titan bones and ice cliffs." loading="lazy" width="1280" height="530"><span class="cap"><b>Glacial Arena</b>236-stud ice ring · terrain mountains</span></button>
+</div>
+</section>
+
+<!-- ================= GALLERY: WEAPONS ================= -->
+<section id="weapons" class="reveal">
+<div class="head"><div class="eyebrow">Gameplay · Combat</div><h2>Weapon system.</h2></div>
+<div class="bento">
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/weapons/05.webp" data-cap="Smoke and shell casings"><img src="assets/img/weapons/05.webp" alt="A rifle firing with muzzle smoke and ejected shell casings." loading="lazy" width="1280" height="530"><span class="cap"><b>Rifle fire</b>Muzzle smoke · ejected casings</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/weapons/01.webp" data-cap="Firing the rifle"><img src="assets/img/weapons/01.webp" alt="Third-person view of the player firing a rifle at the range." loading="lazy" width="1280" height="530"><span class="cap"><b>Shooting range</b>Third-person rifle</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/weapons/02.webp" data-cap="Shotgun blast"><img src="assets/img/weapons/02.webp" alt="The player firing a shotgun at an NPC." loading="lazy" width="1280" height="530"><span class="cap"><b>Shotgun</b>Pellet spread on an NPC</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/weapons/06.webp" data-cap="First person, aiming"><img src="assets/img/weapons/06.webp" alt="First-person view aiming a rifle at a target." loading="lazy" width="1280" height="530"><span class="cap"><b>First person</b>Aim down sights</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/weapons/07.webp" data-cap="Weapon inspect"><img src="assets/img/weapons/07.webp" alt="First-person weapon inspect animation." loading="lazy" width="1280" height="530"><span class="cap"><b>Inspect</b>First-person inspect</span></button>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/weapons/03.webp" data-cap="Arsenal"><img src="assets/img/weapons/03.webp" alt="A table with a rifle, shotgun, pistol and baseball bat." loading="lazy" width="1280" height="530"><span class="cap"><b>Arsenal</b>Rifle, shotgun, pistol, bat</span></button>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/weapons/04.webp" data-cap="AK-47"><img src="assets/img/weapons/04.webp" alt="Close-up of the AK-47 model." loading="lazy" width="1280" height="530"><span class="cap"><b>AK-47</b>Rifle model</span></button>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/weapons/08.webp" data-cap="Slide"><img src="assets/img/weapons/08.webp" alt="The player sliding across the range." loading="lazy" width="1280" height="530"><span class="cap"><b>Slide</b>Slide with the rifle out</span></button>
+</div>
+</section>
+
+<!-- ================= GALLERY: PETS ================= -->
+<section id="pets" class="reveal">
+<div class="head"><div class="eyebrow">Systems · Collection</div><h2>Pet system.</h2></div>
+<div class="bento">
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/pets/02.webp" data-cap="Hatch reveal"><img src="assets/img/pets/02.webp" alt="A rare pet revealed in a burst of light after hatching." loading="lazy" width="1280" height="720"><span class="cap"><b>Hatch reveal</b>Rare pet: Frost</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/pets/03.webp" data-cap="Egg shaking"><img src="assets/img/pets/03.webp" alt="An egg shaking before it hatches." loading="lazy" width="1280" height="720"><span class="cap"><b>Egg</b>Shakes before it opens</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/pets/04.webp" data-cap="Inventory"><img src="assets/img/pets/04.webp" alt="Pet inventory panel with equipped pets." loading="lazy" width="1280" height="720"><span class="cap"><b>Inventory</b>Equipped pets marked in green</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/pets/05.webp" data-cap="Pets following"><img src="assets/img/pets/05.webp" alt="Pets bouncing behind the player." loading="lazy" width="1280" height="720"><span class="cap"><b>Following</b>Pets hop behind the player</span></button>
+  <button class="shot card pop" type="button" data-full="assets/img/pets/01.webp" data-cap="Plaza and egg"><img src="assets/img/pets/01.webp" alt="A plaza with the pet egg stand and coins." loading="lazy" width="1280" height="720"><span class="cap"><b>Plaza</b>Egg stand · coins to collect</span></button>
+  <button class="shot card pop s-wide" type="button" data-full="assets/img/pets/06.webp" data-cap="All pets"><img src="assets/img/pets/06.webp" alt="All seven pets lined up." loading="lazy" width="1280" height="720"><span class="cap"><b>All pets</b>7 pets, built from parts</span></button>
 </div>
 </section>
 
 <!-- ================= SERVICES ================= -->
 <section id="services" class="reveal">
-<div class="head"><div class="eyebrow">Services</div><h2>What I can build for your game</h2><p>From a single feature to a complete system. Tell me what your game needs and I’ll take it from there.</p></div>
+<div class="head"><div class="eyebrow">Services</div><h2>What I can build for your game</h2><p>One feature or a whole system, written in Luau and tested in Studio before it reaches your game.</p></div>
 <div class="grid">
 <article class="card big pop"><div class="n">Avatar shop</div><h3>Avatar purchase systems</h3><p>Outfit search, 3D preview, cart and favorites, with purchases for single items or the whole look.</p><pre class="mini hl" data-l="lua">local missing = Outfit.missing(player, outfitId)
 Shop.buy(player, missing)</pre></article>
@@ -322,6 +413,6 @@ if ok and data then Profile.load(player, data) end</pre></article>
   <p id="lbCap"></p>
 </dialog>
 
-<script src="assets/js/site.js?v=4" defer></script>
+<script src="assets/js/site.js?v=5" defer></script>
 </body>
 </html>

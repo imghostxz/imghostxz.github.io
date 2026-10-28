@@ -83,6 +83,7 @@ function load(i,play){
   cur=(i+cards.length)%cards.length;var c=cards[cur],d=c.dataset;
   pv.pause();pv.poster=P+d.v+'.webp';pv.querySelector('source').src=V+d.v+'.mp4';pv.load();
   $('#pFile').innerHTML='<b>'+d.v+'</b>.mp4';
+  var au=$('#pAud');if(au)au.textContent=d.audio?'audio':'no audio';
   $('#pCat').innerHTML=d.cl;$('#pTitle').innerHTML=d.title;$('#pDesc').textContent=d.desc;
   $('#pTags').innerHTML=d.tags.split('|').map(function(t){return'<li>'+t+'</li>'}).join('');
   cards.forEach(function(x,j){x.classList.toggle('playing',j===cur);x.setAttribute('aria-pressed',String(j===cur))});
